@@ -1,0 +1,152 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/fernandaS28/Repaso-de-Python/blob/main/codigosPython\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "87ygz72J_hn3"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Realizar un programa en python que te permita capturar 3 números enteros e imprima cual de los 3 es el mayor"
+      ],
+      "metadata": {
+        "id": "2W6zR4Jp_l9v"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num1 = int(input(\"Ingrese el primer número: \"))\n",
+        "num2 = int(input(\"Ingrese el segundo número: \"))\n",
+        "num3 = int(input(\"Ingrese el tercer número: \"))\n",
+        "mayor = num1\n",
+        "if num2 > mayor:\n",
+        "    mayor = num2\n",
+        "if num3 > mayor:\n",
+        "    mayor = num3\n",
+        "print(\"El número mayor es:\", mayor)"
+      ],
+      "metadata": {
+        "id": "paKbGtSQ_nF3",
+        "outputId": "7acd3b84-fd4b-4628-975a-c57820388aa9",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Ingrese el primer número: 2\n",
+            "Ingrese el segundo número: 5\n",
+            "Ingrese el tercer número: 6\n",
+            "El número mayor es: 6\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Realizar un programa en python mediante el cual calcules el total de caracteres que tiene un nombre capturado desde el teclado."
+      ],
+      "metadata": {
+        "id": "thmkxFHo_2jd"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nombre = input(\"ingresa tu nombre: \")\n",
+        "total_caracteres = len(nombre)\n",
+        "print(\"El nombre tiene\", total_caracteres, \"caracteres.\")"
+      ],
+      "metadata": {
+        "id": "omkJ9DMg_6BV",
+        "outputId": "ed9472bb-38da-4453-81fe-591c280f1f2a",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "ingresa tu nombre: fernanda\n",
+            "El nombre tiene 8 caracteres.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Realizar un programa en python que permita imprimir los 7 días de la semana."
+      ],
+      "metadata": {
+        "id": "HhPZSQ6G_61F"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "dias = [\"Lunes\", \"Martes\", \"Miércoles\", \"Jueves\", \"Viernes\", \"Sábado\", \"Domingo\"]\n",
+        "for dia in dias:\n",
+        "    print(dia)"
+      ],
+      "metadata": {
+        "id": "1USfUeBWADil",
+        "outputId": "dd62ff03-f268-46b0-9da5-b9ce301b8401",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Lunes\n",
+            "Martes\n",
+            "Miércoles\n",
+            "Jueves\n",
+            "Viernes\n",
+            "Sábado\n",
+            "Domingo\n"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "name": "Te damos la bienvenida a Colaboratory",
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
